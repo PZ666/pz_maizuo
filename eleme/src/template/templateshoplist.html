@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../public/reset.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../public/rem.js"></script>
+    <title>Document</title>
+    <style>
+        #shoplist>ul>li{
+            height: 2.95rem;
+            padding: .3rem 0;
+            border-top: 1px solid #ccc;
+        }
+        .list_t{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: .28rem;
+        }
+        .shop_logo>img{
+            width:1.3rem;
+            height:1.3rem;
+        }
+        .list_t_r{
+            width:5.8rem;
+            height: 1.3rem;
+            display: flex;
+            padding-right: .2rem;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .list_t_r_1,.list_t_r_2,.list_t_r_3{
+            display: flex;
+            justify-content: space-between;
+        }
+        .list_b{
+            padding-left: 1.7rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .brand{
+            font-style: normal;
+            background: linear-gradient(-139deg,#fff100,#ffe339);
+            padding: 0.02rem;
+        }
+        .list_t_r_1>div>span{
+            font-weight: 700;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+            font-size: .3rem;
+        }
+        .list_t_r_1>span{
+            color: #999;
+        }
+        .list_t_r_2>span{
+            background: linear-gradient(45deg,#0085ff,#0af);
+            color: #fff;
+        }
+        .list_b_l_t>.first{
+            background-color: rgb(112, 188, 70);
+            color: #fff;
+        }
+        .list_b_l_b{margin-top:0.05rem;}
+        .list_b_l_b>.reduce{
+            background-color: rgb(240, 115, 115);
+            color: #fff;
+        }
+        .list_b_r{padding-right: .2rem;}
+    </style>
+</head>
+<body>
+    <div id="shoplist">
+        <ul>
+            <li>
+                <div class="list_t">
+                    <div class="shop_logo"><img src="http://fuss10.elemecdn.com/7/b5/65e52d507817eff2693b2916eb477jpeg.jpeg"></div>
+                    <div class="list_t_r">
+                        <div class="list_t_r_1">
+                            <div>
+                                <i class="brand">品牌</i>
+                                <span>华莱士(麓谷加州阳光店)</span>
+                            </div>
+                            <span>保</span>
+                        </div>
+                        <div class="list_t_r_2">
+                            <div>
+                                <span>4.5</span>
+                                <span>月售1378单</span>
+                            </div>
+                           
+                            <span>蜂鸟专送</span>
+                           
+                        </div>
+                        <div class="list_t_r_3">
+                            <div>
+                                <span>¥20起送</span>
+                                <span>优惠配送费¥1.6</span>
+                            </div>
+                            <div>
+                                <span>1.70km</span>
+                                <span>34分钟</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list_b">
+                    <div class="list_b_l">
+                        <div class="list_b_l_t">
+                            <span class="first">首</span>
+                            <span>新用户下单立减17元</span>
+                        </div>
+                        <div class="list_b_l_b">
+                            <span class="reduce">减</span>
+                            <span>满30减15，满50减25</span>
+                        </div>
+                    </div>
+                    <div class="list_b_r">
+                        <span>23个活动</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
