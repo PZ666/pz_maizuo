@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
@@ -12,10 +12,10 @@ registerServiceWorker();
 
 
 
-//                            _ooOoo_
-//                           o8888888o
+//                           _ooOoo_
+//                          o8888888o
 //                           88" . "88
-//                           (| -_- |)
+//                             (| -_- |)
 //                            O\ = /O
 //                        ____/`---'\____
 //                      .   ' \\| |// `.
